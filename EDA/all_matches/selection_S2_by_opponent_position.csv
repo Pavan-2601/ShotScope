@@ -1,0 +1,14 @@
+bin,n,k,variable,rate,lo,hi
+under 1 m,1427,232.0,opponent distance from home,0.163,0.144,0.183
+1-2 m,864,175.0,opponent distance from home,0.203,0.177,0.231
+2-3 m,60,24.0,opponent distance from home,0.4,0.286,0.526
+3 m or more,4,3.0,opponent distance from home,0.75,0.301,0.954
+under 0.5 m,272,27.0,d: distance to the line of flight,0.099,0.069,0.141
+0.5-1 m,269,21.0,d: distance to the line of flight,0.078,0.052,0.116
+1-1.5 m,503,44.0,d: distance to the line of flight,0.087,0.066,0.115
+1.5-2.5 m,1016,222.0,d: distance to the line of flight,0.219,0.194,0.245
+2.5 m or more,233,112.0,d: distance to the line of flight,0.481,0.417,0.545
+0.33-0.90 s,580,134.0,time since the opponent's previous stroke,0.231,0.199,0.267
+0.90-1.10 s,593,108.0,time since the opponent's previous stroke,0.182,0.153,0.215
+1.10-1.33 s,550,82.0,time since the opponent's previous stroke,0.149,0.122,0.181
+1.33-3.20 s,556,98.0,time since the opponent's previous stroke,0.176,0.147,0.21

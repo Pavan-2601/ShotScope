@@ -1,0 +1,18 @@
+# ShotScope core environment (tested on Python 3.9.6, macOS arm64)
+#
+# numpy is pinned below 2: NumPy 2.0.x on Apple Silicon gave spurious
+# "RuntimeWarning: overflow/invalid in matmul" inside scikit-learn's logistic
+# regression. NumPy 1.26.4 gives identical results with no warnings.
+#
+# HDBSCAN comes from scikit-learn (sklearn.cluster.HDBSCAN), so the separate
+# `hdbscan` package is not needed.
+#
+# The Shot Influence code (optional baseline) needs TensorFlow and is NOT part
+# of this environment; it gets its own environment later.
+
+numpy==1.26.4
+pandas==2.3.3
+scipy==1.13.1
+scikit-learn==1.6.1
+statsmodels==0.14.6
+matplotlib==3.9.4
