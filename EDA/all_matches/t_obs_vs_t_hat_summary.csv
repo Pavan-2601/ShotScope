@@ -1,0 +1,3 @@
+,corr,mae,median_error,within_0_10s
+pooled speed,0.087,0.092,0.001,0.654
+speed by smash type,0.143,0.09,-0.0,0.664
